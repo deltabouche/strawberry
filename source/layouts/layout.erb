@@ -1,0 +1,20 @@
+<!doctype html>
+<html>
+  <head>
+    <meta content="IE=edge" http-equiv="X-UA-Compatible">
+    <meta charset="utf-8">
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <title><%= current_page.data.title || "" %></title>
+    <meta property="description" content="<%= current_page.data.description || "" %>">
+    <link rel="icon" type="image/ico" href="/images/favicon/favicon.ico">
+    <link rel="apple-touch-icon" type="image/png" href="/images/favicon/favicon.ico">
+
+    <%= stylesheet_link_tag "index" %>
+  </head>
+  <body>
+    <%= yield %>
+    <%= javascript_include_tag "index" %>
+  </body>
+</html>
