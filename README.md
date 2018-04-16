@@ -2,10 +2,20 @@
 
 🍓
 
+Built with:
+
+* Middleman 4
+* Webpack 3
+
+Includes (but can be easily swapped out for anything else):
+
+* TypeScript 2.6
+* React 16
+* SASS
+
 # Prerequesites
 
 * Ruby Version 2.4.1
-
 * Node Version 7.9.0 or later
 
 ## Yarn
